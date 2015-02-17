@@ -1,0 +1,23 @@
+.hero {
+    width: 50vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+    h1 {
+        @include font-size(59px);
+    }
+}
+
+.content {
+    width: 48vw;
+    position: absolute;
+    left: 50vw;
+    top: 0px;
+    margin: 0;
+    
+    p:first-of-type {
+        margin-top: 0;
+    }
+}
